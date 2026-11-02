@@ -1,0 +1,89 @@
+{
+  "brand": "Last Train",
+  "subline": "Cocktail bar · platform 9, open till 2am",
+  "accent": "#4F86F7",
+  "logo": "board/assets/lasttrain-logo.png",
+  "qr": "board/assets/lasttrain-qr.png",
+  "pages": [
+    {
+      "category": "DRINKS",
+      "rows": [
+        [
+          "NEGRONI",
+          "9.00",
+          "ON TIME"
+        ],
+        [
+          "GIN AND TONIC",
+          "8.00",
+          ""
+        ],
+        [
+          "SPRITZ",
+          "7.50",
+          "HAPPY HR"
+        ],
+        [
+          "ESPRESSO MARTINI",
+          "10.00",
+          "NEW"
+        ],
+        [
+          "OLD FASHIONED",
+          "10.00",
+          ""
+        ],
+        [
+          "MARGARITA",
+          "9.00",
+          "LAST CALL"
+        ]
+      ]
+    },
+    {
+      "category": "SNACKS",
+      "rows": [
+        [
+          "OLIVES",
+          "4.00",
+          "FRESH"
+        ],
+        [
+          "FRIES",
+          "4.50",
+          ""
+        ],
+        [
+          "CHEESE BOARD",
+          "14.00",
+          "SHARE"
+        ],
+        [
+          "CHICKEN WINGS",
+          "7.50",
+          ""
+        ],
+        [
+          "NACHOS",
+          "6.50",
+          "NEW"
+        ],
+        [
+          "SALTED PEANUTS",
+          "3.00",
+          ""
+        ]
+      ]
+    }
+  ],
+  "ticker": "HAPPY HOUR 18:00 TO 20:00  ·  LAST CALL AT 1:45  ·  DJ SET EVERY FRIDAY  ·  NO-ALCOHOL MENU ON REQUEST  ·",
+  "footer_left": "Prices in euro, please drink responsibly",
+  "footer_right": "SCAN TO ORDER",
+  "layout": "list",
+  "header_label": "DEPARTURES",
+  "labels": [
+    "DESTINATION",
+    "FARE",
+    "STATUS"
+  ]
+}

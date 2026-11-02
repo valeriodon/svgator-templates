@@ -1,0 +1,89 @@
+{
+  "brand": "Aurora Café",
+  "subline": "Corner café · since 1962",
+  "accent": "#E35D3A",
+  "logo": "board/assets/aurora-logo.png",
+  "qr": "board/assets/aurora-qr.png",
+  "pages": [
+    {
+      "category": "COFFEE",
+      "rows": [
+        [
+          "ESPRESSO",
+          "1.20",
+          "ON TIME"
+        ],
+        [
+          "FLAT WHITE",
+          "2.80",
+          ""
+        ],
+        [
+          "CAPPUCCINO",
+          "2.60",
+          ""
+        ],
+        [
+          "OAT LATTE",
+          "3.10",
+          "NEW"
+        ],
+        [
+          "ICED COFFEE",
+          "3.00",
+          "SUMMER"
+        ],
+        [
+          "HOT CHOCOLATE",
+          "3.20",
+          ""
+        ]
+      ]
+    },
+    {
+      "category": "PASTRY",
+      "rows": [
+        [
+          "CROISSANT",
+          "1.80",
+          "FRESH"
+        ],
+        [
+          "ALMOND CROISSANT",
+          "2.60",
+          ""
+        ],
+        [
+          "CINNAMON ROLL",
+          "2.90",
+          "LAST 3"
+        ],
+        [
+          "BANANA BREAD",
+          "2.70",
+          "NEW"
+        ],
+        [
+          "BLUEBERRY MUFFIN",
+          "2.50",
+          ""
+        ],
+        [
+          "APPLE PIE",
+          "3.20",
+          ""
+        ]
+      ]
+    }
+  ],
+  "ticker": "OPEN DAILY 7:00 TO 20:00  ·  FREE WI-FI: AURORA-GUEST  ·  OAT MILK AT NO EXTRA COST  ·  PAY AT THE COUNTER  ·",
+  "footer_left": "Prices in euro, table service included",
+  "footer_right": "SCAN TO ORDER",
+  "layout": "list",
+  "header_label": "DEPARTURES",
+  "labels": [
+    "DESTINATION",
+    "FARE",
+    "STATUS"
+  ]
+}

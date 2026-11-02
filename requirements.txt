@@ -1,0 +1,10 @@
+# The generators (gen.py, board/, launch/), the rebrand scripts and the MCP client
+# use the Python 3 standard library only. These are needed for the extras:
+
+# video pipeline (make_family_*.py) and contact sheets (sheet.py)
+numpy
+scipy
+Pillow
+
+# optional: a QR code generated from a URL (qr_url in a board set, board/rebrand_board.py)
+segno

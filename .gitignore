@@ -1,0 +1,33 @@
+# SVGator MCP credentials and session: never commit (see .mcp/*.example.json)
+.mcp/token.json
+.mcp/client.json
+.mcp/pkce.json
+.mcp/session.txt
+.mcp/tmp*.json
+.env
+.env.*
+
+# Tooling
+node_modules/
+package-lock.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated output (project JSON, exports, frames, renders)
+build/
+capture/
+video/tmp/
+video/*.mp4
+video/*.png
+video/*.wav
+video/*.built.html
+video/cap-*.html
+launch/video/*.mp4
+launch/video/end.png
+player/index.html
+player/boards/
+vo/*/*.wav
+
+.DS_Store

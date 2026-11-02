@@ -1,0 +1,8 @@
+{
+  "name": "launch-card",
+  "private": true,
+  "description": "Playwright helpers for the SVGator template generators: text measurement, stills and frame-accurate video renders.",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}

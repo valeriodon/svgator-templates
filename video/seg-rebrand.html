@@ -1,0 +1,64 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=block" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;overflow:hidden;position:relative;background:#F4F0E8;font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased}
+#bg{position:absolute;inset:0;width:1080px;height:1350px;object-fit:cover;transform-origin:50% 50%}
+#tint{position:absolute;inset:0;background:#F4F0E8}
+#card{position:absolute;left:70px;right:70px;top:110px;height:1130px;background:#17181C;border-radius:30px;color:#EDE7DC;padding:44px 48px;box-shadow:0 40px 90px rgba(42,33,24,.35);overflow:hidden}
+.top{display:flex;align-items:center;justify-content:space-between}
+.tag{font-size:19px;letter-spacing:2.2px;text-transform:uppercase;color:#F7A58C;font-weight:600}
+.cmd{font-family:"Geist Mono",monospace;font-size:24px;color:#EDE7DC;margin-top:18px}
+.cmd b{color:#7FD1B9;font-weight:500}
+h2{font-family:"Bricolage Grotesque";font-weight:700;font-size:60px;letter-spacing:-1.6px;line-height:1.02;margin-top:22px;color:#FFF7EF}
+#rows{margin-top:30px;font-family:"Geist Mono",monospace;font-size:19.5px;line-height:26.5px}
+.r{display:flex;gap:14px;white-space:nowrap;opacity:0}
+.r .ok{color:#7FD1B9;width:18px}
+.r .n{width:252px;color:#EDE7DC}
+.r .p{width:118px;color:#7d7f86}
+.r .v{color:#c9c3b8;overflow:hidden;text-overflow:ellipsis;max-width:470px}
+.sec{color:#F7A58C;margin-top:6px}
+#foot{position:absolute;left:48px;right:48px;bottom:40px;display:flex;justify-content:space-between;align-items:baseline;font-size:22px;color:#a9a39a;opacity:0}
+#foot strong{font-family:"Bricolage Grotesque";font-size:40px;color:#FFF7EF;letter-spacing:-.8px}
+#wipe{position:absolute;left:0;right:0;bottom:0;height:0;background:#ECF0EA}
+</style></head><body>
+<img id="bg" src="lumen-end.png">
+<div id="tint"></div>
+<div id="card">
+  <div class="top"><span class="tag">SVGator MCP · edit_part by layer name</span></div>
+  <div class="cmd">$ python rebrand.py launch-card <b>sets/harbor.json</b></div>
+  <h2>Same template.<br>New brand.</h2>
+  <div id="rows"></div>
+  <div id="foot"><span>duplicate_project + get_skeleton + edit_part</span><strong id="cnt">25 edits</strong></div>
+</div>
+<div id="wipe"></div>
+<script>
+const rows = ROWS;
+const box = document.getElementById('rows');
+const secs = {'brand-name':'text','logo':'images','background':'colour','headline-underline_path':'layout'};
+rows.forEach((r, i) => {
+  const d = document.createElement('div'); d.className = 'r';
+  d.innerHTML = `<span class="ok">✓</span><span class="n">${r[0]}</span><span class="p">${r[1]}</span><span class="v">${r[2].replace(/</g,'&lt;')}</span>`;
+  box.appendChild(d);
+});
+const els = [...box.children];
+const ease = x => 1 - Math.pow(1 - Math.min(Math.max(x, 0), 1), 3);
+const easeIn = x => Math.pow(Math.min(Math.max(x, 0), 1), 3);
+window.render = (t) => {   // t in ms, segmento da 4200 ms
+  const bg = document.getElementById('bg');
+  const k = ease(t / 700);
+  bg.style.filter = `blur(${k * 16}px)`; bg.style.transform = `scale(${1 + k * 0.04})`;
+  document.getElementById('tint').style.opacity = 0.45 * k;
+  const card = document.getElementById('card');
+  const kc = ease((t - 150) / 650);
+  card.style.opacity = kc; card.style.transform = `translateY(${(1 - kc) * 60}px) scale(${0.97 + 0.03 * kc})`;
+  els.forEach((e, i) => { const ki = ease((t - 650 - i * 88) / 180); e.style.opacity = ki; e.style.transform = `translateX(${(1 - ki) * -10}px)`; });
+  const kf = ease((t - 650 - els.length * 88) / 300);
+  document.getElementById('foot').style.opacity = kf;
+  const kw = easeIn((t - 3650) / 550);
+  document.getElementById('wipe').style.height = (kw * 1350) + 'px';
+};
+window.render(0);
+</script>
+</body></html>

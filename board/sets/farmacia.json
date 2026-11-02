@@ -1,0 +1,102 @@
+{
+  "layout": "queue",
+  "brand": "Central Pharmacy",
+  "subline": "Market Square · open every day",
+  "accent": "#22A06B",
+  "logo": "board/assets/farmacia-logo.png",
+  "qr": "board/assets/qr-placeholder.png",
+  "header_label": "NOW SERVING",
+  "labels": [
+    "TICKET",
+    "SERVICE",
+    "DESK",
+    "WAIT"
+  ],
+  "pages": [
+    {
+      "category": "NOW A042",
+      "rows": [
+        [
+          "A042",
+          "PRESCRIPTIONS",
+          "DESK 1",
+          "NOW"
+        ],
+        [
+          "B015",
+          "BLOOD PRESSURE",
+          "ROOM 2",
+          "NOW"
+        ],
+        [
+          "A043",
+          "PRESCRIPTIONS",
+          "",
+          "4 MIN"
+        ],
+        [
+          "C007",
+          "PICK-UP ORDER",
+          "",
+          "6 MIN"
+        ],
+        [
+          "A044",
+          "PRESCRIPTIONS",
+          "",
+          "9 MIN"
+        ],
+        [
+          "B016",
+          "BLOOD PRESSURE",
+          "",
+          "15 MIN"
+        ]
+      ]
+    },
+    {
+      "category": "NOW A043",
+      "rows": [
+        [
+          "A043",
+          "PRESCRIPTIONS",
+          "DESK 1",
+          "NOW"
+        ],
+        [
+          "C007",
+          "PICK-UP ORDER",
+          "DESK 2",
+          "NOW"
+        ],
+        [
+          "A044",
+          "PRESCRIPTIONS",
+          "",
+          "3 MIN"
+        ],
+        [
+          "B016",
+          "BLOOD PRESSURE",
+          "",
+          "8 MIN"
+        ],
+        [
+          "A045",
+          "PRESCRIPTIONS",
+          "",
+          "11 MIN"
+        ],
+        [
+          "C008",
+          "PICK-UP ORDER",
+          "",
+          "14 MIN"
+        ]
+      ]
+    }
+  ],
+  "ticker": "TAKE A TICKET AT THE ENTRANCE  ·  ORDER ONLINE, PICK UP IN 2 HOURS  ·  NIGHT SERVICE AT THE SIDE WINDOW  ·",
+  "footer_left": "Please wait to be called",
+  "footer_right": "ORDER ONLINE"
+}

@@ -1,0 +1,89 @@
+{
+  "layout": "list",
+  "brand": "Green Corner",
+  "subline": "Fruit and vegetables · stall 21, Central Market",
+  "accent": "#6E9A2B",
+  "logo": "board/assets/ortovivo-logo.png",
+  "qr": "board/assets/qr-placeholder.png",
+  "header_label": "TODAY'S PRICES",
+  "labels": [
+    "PRODUCT",
+    "PER KG",
+    "ORIGIN"
+  ],
+  "pages": [
+    {
+      "category": "FRUIT",
+      "rows": [
+        [
+          "BLOOD ORANGES",
+          "1.90",
+          "SICILY"
+        ],
+        [
+          "GALA APPLES",
+          "2.40",
+          "LOCAL"
+        ],
+        [
+          "FRESH FIGS",
+          "4.50",
+          "LAST BOX"
+        ],
+        [
+          "WHITE GRAPES",
+          "2.80",
+          "ITALY"
+        ],
+        [
+          "LEMONS",
+          "3.20",
+          "NEW"
+        ],
+        [
+          "POMEGRANATES",
+          "3.50",
+          "OFFER"
+        ]
+      ]
+    },
+    {
+      "category": "VEGGIES",
+      "rows": [
+        [
+          "CHERRY TOMATOES",
+          "3.90",
+          "SICILY"
+        ],
+        [
+          "ZUCCHINI",
+          "2.20",
+          "LOCAL"
+        ],
+        [
+          "ARTICHOKES",
+          "6.00",
+          "NEW"
+        ],
+        [
+          "BROCCOLI",
+          "2.90",
+          "LOCAL"
+        ],
+        [
+          "NEW POTATOES",
+          "1.40",
+          "OFFER"
+        ],
+        [
+          "FRESH BASIL",
+          "1.00",
+          "BUNCH"
+        ]
+      ]
+    }
+  ],
+  "ticker": "OPEN MONDAY TO SATURDAY 7:00 TO 14:00  ·  HOME DELIVERY ON ORDERS OVER 30 EURO  ·  CARDS ACCEPTED  ·",
+  "footer_left": "Prices per kilo, VAT included",
+  "footer_right": "ORDER ONLINE"
+}

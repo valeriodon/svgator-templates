@@ -1,0 +1,125 @@
+{
+  "brand": "Lumen",
+  "product": "Lumen 2.0",
+  "accent": "#EE4B23",
+  "logo": "assets/lumen-logo.png",
+  "screenshot": "assets/lumen-app.jpg",
+  "url": "lumen.app/reports",
+  "features": [
+    "Revenue forecasts",
+    "Plain-language insights",
+    "Slack + email delivery"
+  ],
+  "cta": "Open Lumen 2.0",
+  "ignition": {
+    "eyebrow": "LAUNCH SEQUENCE · V2.0",
+    "headline": [
+      "Lumen 2.0",
+      "is ready."
+    ],
+    "live": "is live.",
+    "subhead": [
+      "Weekly reports that write themselves,",
+      "now with revenue forecasts."
+    ],
+    "hint": "Press and hold the button",
+    "cta2": "Watch the tour"
+  },
+  "box": {
+    "headline": "LUMEN 2.0",
+    "subline": "WEEKLY REPORTS THAT WRITE THEMSELVES",
+    "label_title": "NEW ARRIVAL",
+    "ship_to": "Every shop on Lumen",
+    "stamp": "FRAGILE",
+    "stamp_sub": "CONTAINS NEW FEATURES",
+    "hint": "Pull the strip to unbox",
+    "strip": "PULL TO OPEN  →",
+    "badge": [
+      "NEW",
+      "2.0",
+      "LUMEN"
+    ]
+  },
+  "pass": {
+    "eyebrow": "YOU'RE INVITED",
+    "headline": [
+      "Be there when",
+      "Lumen 2.0",
+      "goes live."
+    ],
+    "details": [
+      "THU · OCT 24 · 18:00 CET",
+      "ONLINE · LUMEN.APP/LIVE"
+    ],
+    "hint": "Hover the pass, click to flip it",
+    "hint_done": "See you Thursday.",
+    "pass_label": "LAUNCH PASS",
+    "number": "N° 0001",
+    "product": [
+      "Lumen",
+      "2.0"
+    ],
+    "grid": [
+      [
+        "DATE",
+        "THU OCT 24"
+      ],
+      [
+        "TIME",
+        "18:00 CET"
+      ],
+      [
+        "WHERE",
+        "ONLINE"
+      ],
+      [
+        "SEAT",
+        "FRONT ROW"
+      ]
+    ],
+    "admit": "ADMIT ONE",
+    "stub_cta": "SAVE YOUR SPOT",
+    "back_title": "WHAT'S NEW IN 2.0",
+    "stamp": "You're in"
+  },
+  "deck": {
+    "eyebrow": "WHAT'S NEW · V2.0",
+    "headline": [
+      "Three new",
+      "things in",
+      "Lumen 2.0."
+    ],
+    "subhead": "Click through the deck. It takes ten seconds.",
+    "hint": "Click or swipe the deck",
+    "footer": "LUMEN 2.0",
+    "cards": [
+      {
+        "title": [
+          "Revenue",
+          "forecasts"
+        ],
+        "body": "See next week before it happens."
+      },
+      {
+        "title": [
+          "Plain-language",
+          "insights"
+        ],
+        "body": "Your numbers, explained in a sentence."
+      },
+      {
+        "title": [
+          "Slack + email",
+          "delivery"
+        ],
+        "body": "Every Monday at 8:00, where you read."
+      }
+    ],
+    "cta_title": [
+      "Lumen 2.0",
+      "is live."
+    ],
+    "cta": "Try it free",
+    "cta_url": "lumen.app"
+  }
+}

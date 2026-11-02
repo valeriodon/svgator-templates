@@ -1,0 +1,8 @@
+{
+  "client_name": "launch-card-mcp-client",
+  "client_id": "YOUR_CLIENT_ID_FROM_POST_/register",
+  "redirect_uris": ["http://127.0.0.1:53682/callback"],
+  "token_endpoint_auth_method": "none",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"]
+}

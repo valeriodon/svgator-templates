@@ -1,0 +1,102 @@
+{
+  "layout": "queue",
+  "brand": "Barber Seven",
+  "subline": "Cuts and shaves · walk-ins welcome",
+  "accent": "#B5452E",
+  "logo": "board/assets/barberiasette-logo.png",
+  "qr": "board/assets/qr-placeholder.png",
+  "header_label": "NOW SERVING",
+  "labels": [
+    "TICKET",
+    "CLIENT",
+    "CHAIR",
+    "WAIT"
+  ],
+  "pages": [
+    {
+      "category": "NEXT B19",
+      "rows": [
+        [
+          "B17",
+          "JAMES M.",
+          "CHAIR 1",
+          "NOW"
+        ],
+        [
+          "B18",
+          "SARA P.",
+          "CHAIR 2",
+          "NOW"
+        ],
+        [
+          "B19",
+          "TOM",
+          "",
+          "10 MIN"
+        ],
+        [
+          "B20",
+          "FRED R.",
+          "",
+          "20 MIN"
+        ],
+        [
+          "B21",
+          "ANDY",
+          "",
+          "30 MIN"
+        ],
+        [
+          "B22",
+          "WALK-IN",
+          "",
+          "40 MIN"
+        ]
+      ]
+    },
+    {
+      "category": "NEXT B20",
+      "rows": [
+        [
+          "B18",
+          "SARA P.",
+          "CHAIR 2",
+          "NOW"
+        ],
+        [
+          "B19",
+          "TOM",
+          "CHAIR 1",
+          "NOW"
+        ],
+        [
+          "B20",
+          "FRED R.",
+          "",
+          "10 MIN"
+        ],
+        [
+          "B21",
+          "ANDY",
+          "",
+          "20 MIN"
+        ],
+        [
+          "B22",
+          "WALK-IN",
+          "",
+          "30 MIN"
+        ],
+        [
+          "B23",
+          "GEORGE",
+          "",
+          "40 MIN"
+        ]
+      ]
+    }
+  ],
+  "ticker": "BOOK YOUR CHAIR IN THE APP AND SKIP THE QUEUE  ·  BEARD TRIM 15 EURO  ·  OPEN TUESDAY TO SATURDAY 9:00 TO 19:30  ·",
+  "footer_left": "Average cut 25 minutes",
+  "footer_right": "JOIN THE QUEUE"
+}

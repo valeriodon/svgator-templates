@@ -1,0 +1,89 @@
+{
+  "layout": "list",
+  "brand": "Sea House",
+  "subline": "Welcome, Rossi family",
+  "accent": "#1F8FA8",
+  "logo": "board/assets/casamare-logo.png",
+  "qr": "board/assets/qr-placeholder.png",
+  "header_label": "WELCOME",
+  "labels": [
+    "WHAT",
+    "WHEN",
+    "NOTE"
+  ],
+  "pages": [
+    {
+      "category": "HOUSE",
+      "rows": [
+        [
+          "CHECK-IN",
+          "15:00",
+          "SELF"
+        ],
+        [
+          "CHECK-OUT",
+          "10:00",
+          "TUESDAY"
+        ],
+        [
+          "WI-FI SEAHOUSE",
+          "",
+          "SUNNY2026"
+        ],
+        [
+          "BREAKFAST",
+          "8:30",
+          "TERRACE"
+        ],
+        [
+          "BEACH",
+          "5 MIN",
+          "ON FOOT"
+        ],
+        [
+          "YOUR HOST ANNA",
+          "",
+          "WHATSAPP"
+        ]
+      ]
+    },
+    {
+      "category": "NEARBY",
+      "rows": [
+        [
+          "GINO'S TRATTORIA",
+          "400 M",
+          "BOOK 8PM"
+        ],
+        [
+          "ICE CREAM SHOP",
+          "250 M",
+          "PISTACHIO"
+        ],
+        [
+          "PUBLIC BEACH",
+          "5 MIN",
+          "SUNSET"
+        ],
+        [
+          "BUS TO TOWN",
+          "7:40",
+          "EVERY 20"
+        ],
+        [
+          "PHARMACY",
+          "300 M",
+          "TILL 8PM"
+        ],
+        [
+          "FARMERS MARKET",
+          "SAT",
+          "MORNING"
+        ]
+      ]
+    }
+  ],
+  "ticker": "WELCOME TO SEA HOUSE  ·  RECYCLING BINS ARE UNDER THE STAIRS  ·  BEACH TOWELS IN THE HALL CUPBOARD  ·  QUIET HOURS 23:00 TO 8:00  ·",
+  "footer_left": "Anything you need, message Anna",
+  "footer_right": "HOUSE GUIDE"
+}

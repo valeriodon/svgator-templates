@@ -1,0 +1,55 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=block" rel="stylesheet">
+<style>
+:root{--ink:#14201d;--muted:#66726e;--line:#dfe6e1;--paper:#f6f8f5;--card:#fcfdfb;--acc:#0b6e5f;--acc2:#e4f0eb}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1000px;height:625px;font-family:Geist,sans-serif;color:var(--ink);background:var(--paper);display:flex;overflow:hidden;-webkit-font-smoothing:antialiased}
+aside{width:240px;padding:22px 16px;border-right:1px solid var(--line);background:#eff3f0;display:flex;flex-direction:column;gap:4px}
+.brand{display:flex;align-items:center;gap:9px;font-weight:700;font-size:17px;margin:0 6px 22px}
+.brand i{width:22px;height:22px;border-radius:7px;background:var(--acc)}
+nav a{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:9px;font-size:14px;color:var(--muted);font-weight:500}
+nav a b{width:15px;height:15px;border-radius:4px;border:1.6px solid currentColor;opacity:.7}
+nav a.on{background:#fcfdfb;color:var(--ink);box-shadow:0 1px 0 var(--line)}
+main{flex:1;padding:24px 28px;display:flex;flex-direction:column;gap:16px;position:relative}
+header{display:flex;align-items:center;gap:12px}
+h1{font-size:24px;font-weight:700;letter-spacing:-.4px}
+.chip{font-size:13px;font-weight:500;color:var(--muted);border:1px solid var(--line);background:var(--card);padding:6px 11px;border-radius:99px}
+.sp{flex:1}
+.btn{font-size:13px;font-weight:600;background:var(--acc);color:#f6fbf8;padding:9px 15px;border-radius:10px}
+.grid{flex:1;background:var(--card);border:1px solid var(--line);border-radius:14px;display:grid;grid-template-columns:100px repeat(6,1fr);grid-template-rows:40px repeat(5,1fr);overflow:hidden}
+.grid>div{border-right:1px solid #edf1ee;border-bottom:1px solid #edf1ee;position:relative;padding:6px}
+.hd{font-size:12.5px;font-weight:600;color:var(--muted);display:flex;align-items:center;padding-left:10px!important}
+.hd.today{color:var(--acc)}
+.who{display:flex;align-items:center;gap:8px;font-size:13.5px;font-weight:600;padding-left:12px!important}
+.who i{width:24px;height:24px;border-radius:50%;display:block;flex:none}
+.s{position:absolute;left:5px;right:5px;top:7px;bottom:7px;border-radius:9px;padding:6px 8px;font-size:12px;font-weight:600;line-height:1.25}
+.s small{display:block;font-weight:500;opacity:.75;font-size:10.5px;white-space:normal;letter-spacing:-.1px;line-height:1.3}
+.k{background:#d8ebe3;color:#0a4d42}
+.b{background:#f1e6d3;color:#6a4a16}
+.f{background:#e3e3f2;color:#3b3b78}
+.swap{outline:2px dashed #0b6e5f;outline-offset:-2px;background:#eaf5f0;color:#0a4d42}
+.toast{position:absolute;right:26px;bottom:26px;width:330px;background:var(--ink);color:#e9f1ed;border-radius:16px;padding:16px 16px 14px;box-shadow:0 18px 40px rgba(20,32,29,.28)}
+.toast .t{font-size:11.5px;letter-spacing:1.3px;text-transform:uppercase;color:#7fd1b9;font-weight:600}
+.toast p{font-size:16px;line-height:1.35;margin-top:8px;font-weight:500}
+.toast p b{color:#fff}
+.toast .a{display:flex;gap:8px;margin-top:12px}
+.toast .a span{font-size:13px;font-weight:600;padding:8px 14px;border-radius:9px}
+.ok{background:#7fd1b9;color:#0b2a24}.no{background:#26332f;color:#c9d6d1}
+</style></head><body>
+<aside>
+  <div class="brand"><i></i>Harbor</div>
+</aside>
+<main>
+  <header><h1>Schedule</h1><span class="chip">Week of Oct 13</span><span class="chip">Harbor Street Kitchen</span><span class="sp"></span><span class="btn">Publish schedule</span></header>
+  <section class="grid">
+    <div class="hd"></div><div class="hd">Mon 13</div><div class="hd">Tue 14</div><div class="hd today">Wed 15</div><div class="hd">Thu 16</div><div class="hd">Fri 17</div><div class="hd">Sat 18</div>
+    <div class="who"><i style="background:#f0b9a3"></i>Ana</div><div><span class="s k">Kitchen<small>7:00 to 15:00</small></span></div><div><span class="s k">Kitchen<small>7:00 to 15:00</small></span></div><div></div><div><span class="s k">Kitchen<small>7:00 to 15:00</small></span></div><div><span class="s k">Prep<small>9:00 to 13:00</small></span></div><div></div>
+    <div class="who"><i style="background:#b6cfc4"></i>Marco</div><div></div><div><span class="s b">Bar<small>17:00 to 24:00</small></span></div><div><span class="s b">Bar<small>17:00 to 24:00</small></span></div><div></div><div><span class="s swap">Swap?<small>17:00 to 24:00</small></span></div><div><span class="s b">Bar<small>16:00 to 23:00</small></span></div>
+    <div class="who"><i style="background:#d8c79e"></i>Priya</div><div><span class="s f">Floor<small>11:00 to 16:00</small></span></div><div></div><div><span class="s f">Floor<small>11:00 to 16:00</small></span></div><div><span class="s f">Floor<small>18:00 to 23:00</small></span></div><div></div><div><span class="s f">Floor<small>12:00 to 20:00</small></span></div>
+    <div class="who"><i style="background:#aab9d8"></i>Tom</div><div><span class="s k">Kitchen<small>14:00 to 22:00</small></span></div><div><span class="s k">Kitchen<small>14:00 to 22:00</small></span></div><div></div><div></div><div><span class="s k">Kitchen<small>14:00 to 22:00</small></span></div><div><span class="s k">Kitchen<small>12:00 to 22:00</small></span></div>
+    <div class="who"><i style="background:#e2b6cf"></i>Lea</div><div></div><div><span class="s f">Floor<small>18:00 to 23:00</small></span></div><div><span class="s f">Floor<small>18:00 to 23:00</small></span></div><div><span class="s b">Bar<small>17:00 to 24:00</small></span></div><div></div><div></div>
+  </section>
+  <div class="toast"><div class="t">Swap request</div><p><b>Marco</b> and <b>Priya</b> want to trade Friday's bar shift. No overtime.</p><div class="a"><span class="ok">Approve</span><span class="no">Decline</span></div></div>
+</main>
+</body></html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=block" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1920px;height:1080px;overflow:hidden;position:relative;background:#0E0F11;font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased}
+#bg{position:absolute;inset:0;width:1920px;height:1080px;object-fit:cover}
+#tint{position:absolute;inset:0;background:#0E0F11}
+#win{position:absolute;left:50%;top:50%;width:1180px;transform:translate(-50%,-50%);background:#F6F2EA;border-radius:34px;padding:40px 46px 44px;box-shadow:0 50px 120px rgba(0,0,0,.55);color:#17181C}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:19px;letter-spacing:2.2px;text-transform:uppercase;font-weight:600;color:#7a7469}
+.top b{color:#17181C;font-weight:600}
+.me{margin:30px 0 0 auto;max-width:860px;background:#17181C;color:#F6F2EA;border-radius:26px 26px 6px 26px;padding:24px 30px;font-size:33px;line-height:1.32;font-weight:500;letter-spacing:-.2px}
+.bot{margin-top:26px;max-width:1000px}
+.who{font-size:18px;letter-spacing:2px;text-transform:uppercase;font-weight:600;color:#7a7469;margin-bottom:12px}
+#list{font-family:"Geist Mono",monospace;font-size:25px;line-height:38px;overflow:hidden;position:relative}
+#inner{position:relative}
+.l{display:flex;gap:16px;white-space:nowrap;opacity:0}
+.l .ok{color:#1f8a5b;width:22px}
+.l .n{color:#17181C;width:420px;flex:none}
+.l .v{color:#5a5650;overflow:hidden;text-overflow:ellipsis}
+#done{margin-top:20px;font-size:24px;color:#5a5650;opacity:0}
+#done strong{font-family:"Bricolage Grotesque";color:#17181C;font-size:30px;letter-spacing:-.4px;margin-right:12px}
+</style></head><body>
+<img id="bg" src="BG">
+<img id="bg2" src="BG2" style="position:absolute;inset:0;width:1920px;height:1080px;opacity:0">
+<div id="tint"></div>
+<div id="win">
+  <div class="top"><span>Menu board · <b>TITLE</b></span><span>SVGator MCP</span></div>
+  <div class="me" id="me">MSG</div>
+  <div class="bot"><div class="who" id="who">Claude, editing layers by name</div>
+    <div id="list"><div id="inner"></div></div>
+    <div id="done"><strong>DONE1</strong>DONE2</div>
+  </div>
+</div>
+<script>
+const CFG = CONFIG;
+const inner = document.getElementById('inner');
+CFG.rows.forEach(r => { const d = document.createElement('div'); d.className = 'l';
+  d.innerHTML = `<span class="ok">✓</span><span class="n">${r[0]}</span><span class="v">→ ${r[1] || '(blank)'}</span>`; inner.appendChild(d); });
+const list = document.getElementById('list'); list.style.height = (Math.min(CFG.rows.length, CFG.visible) * 38) + 'px';
+const els = [...inner.children];
+const ease = x => 1 - Math.pow(1 - Math.min(Math.max(x, 0), 1), 3);
+window.render = (t) => {
+  const k = ease(t / 500);
+  document.getElementById('bg').style.filter = `blur(${k * 14}px)`;
+  document.getElementById('tint').style.opacity = 0.55 * k;
+  const w = document.getElementById('win'); const kw = ease((t - 100) / 550);
+  w.style.opacity = kw; w.style.transform = `translate(-50%, calc(-50% + ${(1 - kw) * 50}px)) scale(${0.97 + 0.03 * kw})`;
+  const me = document.getElementById('me'); const km = ease((t - 450) / 450);
+  me.style.opacity = km; me.style.transform = `translateY(${(1 - km) * 18}px)`;
+  const t0 = CFG.listStart, step = CFG.step;
+  els.forEach((e, i) => { const ki = ease((t - t0 - i * step) / 160); e.style.opacity = ki; });
+  const shown = Math.max(0, Math.floor((t - t0) / step) + 1);
+  const off = Math.max(0, Math.min(shown, els.length) - CFG.visible) * 38;
+  inner.style.transform = `translateY(${-off}px)`;
+  document.getElementById('who').style.opacity = ease((t - t0 + 250) / 300);
+  document.getElementById('done').style.opacity = ease((t - t0 - els.length * step - 150) / 300);
+  const kx = Math.min(Math.max((t - CFG.dur + 380) / 380, 0), 1);
+  const b2 = document.getElementById('bg2'); const kb = Math.min(Math.max((t - CFG.dur / 2) / 600, 0), 1);
+  b2.style.opacity = kb; b2.style.filter = `blur(${k * 14 * (1 - kx)}px)`;
+  w.style.opacity = kw * (1 - kx); document.getElementById('tint').style.opacity = 0.55 * k * (1 - kx);
+  document.getElementById('bg').style.filter = `blur(${k * 14 * (1 - kx)}px)`;
+};
+window.render(0);
+</script>
+</body></html>

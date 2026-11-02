@@ -1,0 +1,102 @@
+{
+  "layout": "schedule",
+  "brand": "Studio Nine",
+  "subline": "Gym and classes · 9 Nice Street",
+  "accent": "#D9486F",
+  "logo": "board/assets/studionove-logo.png",
+  "qr": "board/assets/qr-placeholder.png",
+  "header_label": "TODAY",
+  "labels": [
+    "TIME",
+    "CLASS",
+    "ROOM",
+    "STATUS"
+  ],
+  "pages": [
+    {
+      "category": "MORNING",
+      "rows": [
+        [
+          "07:00",
+          "SPINNING",
+          "S1",
+          "BOARDING"
+        ],
+        [
+          "08:30",
+          "YOGA FLOW",
+          "S2",
+          "4 SPOTS"
+        ],
+        [
+          "09:30",
+          "PILATES MAT",
+          "S2",
+          "FULL"
+        ],
+        [
+          "10:30",
+          "FUNCTIONAL",
+          "S1",
+          ""
+        ],
+        [
+          "12:30",
+          "HIIT EXPRESS",
+          "S1",
+          "NEW"
+        ],
+        [
+          "13:15",
+          "STRETCHING",
+          "S3",
+          ""
+        ]
+      ]
+    },
+    {
+      "category": "EVENING",
+      "rows": [
+        [
+          "17:30",
+          "BOXING",
+          "S1",
+          "3 SPOTS"
+        ],
+        [
+          "18:30",
+          "SPINNING",
+          "S1",
+          "FULL"
+        ],
+        [
+          "19:00",
+          "YOGA VINYASA",
+          "S2",
+          ""
+        ],
+        [
+          "19:30",
+          "CROSS TRAINING",
+          "S3",
+          "NEW"
+        ],
+        [
+          "20:15",
+          "PILATES REFORM",
+          "S2",
+          "2 SPOTS"
+        ],
+        [
+          "21:00",
+          "STRETCHING",
+          "S2",
+          "CLOSING"
+        ]
+      ]
+    }
+  ],
+  "ticker": "BOOK YOUR CLASS IN THE APP  ·  TOWELS AT THE DESK  ·  NEW: REFORMER PILATES ON TUESDAY AND THURSDAY  ·  OPEN 6:30 TO 22:30  ·",
+  "footer_left": "Classes last 45 minutes",
+  "footer_right": "BOOK IN THE APP"
+}

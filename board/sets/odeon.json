@@ -1,0 +1,102 @@
+{
+  "layout": "schedule",
+  "brand": "Cinema Odeon",
+  "subline": "Three screens · since 1958",
+  "accent": "#C8323C",
+  "logo": "board/assets/odeon-logo.png",
+  "qr": "board/assets/qr-placeholder.png",
+  "header_label": "NOW SHOWING",
+  "labels": [
+    "TIME",
+    "FILM",
+    "SCREEN",
+    "STATUS"
+  ],
+  "pages": [
+    {
+      "category": "TODAY",
+      "rows": [
+        [
+          "15:30",
+          "THE LONG SUMMER",
+          "1",
+          "ON TIME"
+        ],
+        [
+          "16:10",
+          "PAPER MOONS",
+          "2",
+          ""
+        ],
+        [
+          "17:45",
+          "A ROOM IN ROME",
+          "3",
+          "FEW LEFT"
+        ],
+        [
+          "18:20",
+          "THE QUIET ONE",
+          "1",
+          ""
+        ],
+        [
+          "19:00",
+          "NORTH STAR",
+          "2",
+          "PREMIERE"
+        ],
+        [
+          "20:30",
+          "LAST TRAIN",
+          "3",
+          "SOLD OUT"
+        ]
+      ]
+    },
+    {
+      "category": "TONIGHT",
+      "rows": [
+        [
+          "20:45",
+          "NIGHT SWIMMING",
+          "1",
+          "ON TIME"
+        ],
+        [
+          "21:00",
+          "PAPER MOONS",
+          "2",
+          "FEW LEFT"
+        ],
+        [
+          "21:30",
+          "THE LONG SUMMER",
+          "3",
+          ""
+        ],
+        [
+          "22:15",
+          "MIDNIGHT TAXI",
+          "1",
+          "NEW"
+        ],
+        [
+          "22:40",
+          "A ROOM IN ROME",
+          "2",
+          ""
+        ],
+        [
+          "23:00",
+          "NORTH STAR",
+          "3",
+          "SOLD OUT"
+        ]
+      ]
+    }
+  ],
+  "ticker": "TUESDAY TICKETS 5 EURO  ·  ORIGINAL LANGUAGE EVERY THURSDAY  ·  POPCORN AND DRINKS AT THE BAR  ·  BOOK ONLINE, SKIP THE QUEUE  ·",
+  "footer_left": "Doors open 20 minutes before",
+  "footer_right": "BUY TICKETS"
+}

@@ -1,0 +1,26 @@
+{
+  "brand": "Harbor",
+  "accent": "#0B6E5F",
+  "paper": "#ECF0EA",
+  "logo": "assets/harbor-logo.png",
+  "screenshot": "assets/harbor-app.jpg",
+  "eyebrow": "NEW · SHIFT SWAPS",
+  "headline": [
+    "Shift swaps,",
+    "without the chaos."
+  ],
+  "underline_word": "chaos",
+  "subhead": "Your crew trades shifts in the app. You approve in one tap.",
+  "features": [
+    "Swap requests in one tap",
+    "Overtime checked for you",
+    "Payroll updates itself"
+  ],
+  "cta": "Start free trial",
+  "url": "harbor.app/schedule",
+  "zoom_focus": [
+    0.81,
+    0.85
+  ],
+  "zoom": 1.7
+}

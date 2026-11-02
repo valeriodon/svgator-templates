@@ -1,0 +1,26 @@
+{
+  "brand": "Lumen",
+  "accent": "#EE4B23",
+  "paper": "#F4F0E8",
+  "logo": "assets/lumen-logo.png",
+  "screenshot": "assets/lumen-app.jpg",
+  "eyebrow": "NEW · AUTO REPORTS",
+  "headline": [
+    "Reports that",
+    "write themselves."
+  ],
+  "underline_word": "themselves",
+  "subhead": "Your shop data, turned into a report your team reads.",
+  "features": [
+    "Sent every Monday at 8:00",
+    "Plain-language insights",
+    "Shopify + Stripe sync"
+  ],
+  "cta": "Try it free",
+  "url": "lumen.app/reports",
+  "zoom_focus": [
+    0.565,
+    0.47
+  ],
+  "zoom": 1.7
+}

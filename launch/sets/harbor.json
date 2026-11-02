@@ -1,0 +1,125 @@
+{
+  "brand": "Harbor",
+  "product": "Harbor 3",
+  "accent": "#17A37E",
+  "logo": "assets/harbor-logo.png",
+  "screenshot": "assets/harbor-app.jpg",
+  "url": "harbor.app/schedule",
+  "features": [
+    "Shift swaps in one tap",
+    "Overtime checked for you",
+    "Payroll updates itself"
+  ],
+  "cta": "Open Harbor 3",
+  "ignition": {
+    "eyebrow": "LAUNCH SEQUENCE · V3",
+    "headline": [
+      "Harbor 3",
+      "is ready."
+    ],
+    "live": "is live.",
+    "subhead": [
+      "Shift scheduling for restaurants,",
+      "now with one-tap swaps."
+    ],
+    "hint": "Press and hold the button",
+    "cta2": "See what's new"
+  },
+  "box": {
+    "headline": "HARBOR 3",
+    "subline": "SHIFT SCHEDULING FOR RESTAURANTS",
+    "label_title": "NEW ARRIVAL",
+    "ship_to": "Every kitchen on Harbor",
+    "stamp": "FRAGILE",
+    "stamp_sub": "CONTAINS NEW FEATURES",
+    "hint": "Pull the strip to unbox",
+    "strip": "PULL TO OPEN  →",
+    "badge": [
+      "NEW",
+      "3",
+      "HARBOR"
+    ]
+  },
+  "pass": {
+    "eyebrow": "YOU'RE INVITED",
+    "headline": [
+      "Be there when",
+      "Harbor 3",
+      "goes live."
+    ],
+    "details": [
+      "MON · NOV 4 · 10:00 CET",
+      "ONLINE · HARBOR.APP/LIVE"
+    ],
+    "hint": "Hover the pass, click to flip it",
+    "hint_done": "See you Monday.",
+    "pass_label": "LAUNCH PASS",
+    "number": "N° 0003",
+    "product": [
+      "Harbor",
+      "3"
+    ],
+    "grid": [
+      [
+        "DATE",
+        "MON NOV 4"
+      ],
+      [
+        "TIME",
+        "10:00 CET"
+      ],
+      [
+        "WHERE",
+        "ONLINE"
+      ],
+      [
+        "SEAT",
+        "CHEF'S TABLE"
+      ]
+    ],
+    "admit": "ADMIT ONE",
+    "stub_cta": "SAVE YOUR SPOT",
+    "back_title": "WHAT'S NEW IN 3",
+    "stamp": "You're in"
+  },
+  "deck": {
+    "eyebrow": "WHAT'S NEW · V3",
+    "headline": [
+      "Three new",
+      "things in",
+      "Harbor 3."
+    ],
+    "subhead": "Click through the deck. It takes ten seconds.",
+    "hint": "Click or swipe the deck",
+    "footer": "HARBOR 3",
+    "cards": [
+      {
+        "title": [
+          "Shift swaps",
+          "in one tap"
+        ],
+        "body": "Your crew trades, you approve."
+      },
+      {
+        "title": [
+          "Overtime",
+          "checked for you"
+        ],
+        "body": "Warnings before the week is planned."
+      },
+      {
+        "title": [
+          "Payroll",
+          "updates itself"
+        ],
+        "body": "Hours flow straight into payroll."
+      }
+    ],
+    "cta_title": [
+      "Harbor 3",
+      "is live."
+    ],
+    "cta": "Start free trial",
+    "cta_url": "harbor.app"
+  }
+}
