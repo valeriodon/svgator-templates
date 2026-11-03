@@ -228,6 +228,10 @@ media/                images and GIFs used in these docs
 
 ---
 
+## Support
+
+If these templates or the tooling around them save you time, you can support my work on [GitHub Sponsors](https://github.com/sponsors/valeriodon).
+
 ## License
 
 The code is released under the [MIT License](LICENSE). The designs are not: the templates' artwork, animations, logos, product screens and the files in `media/`, `assets/`, `assets-src/` and `board/` are © 2026 Valerio Donfrancesco, all rights reserved. The fonts belong to their authors (SIL Open Font License).
