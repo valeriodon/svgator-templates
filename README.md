@@ -1,5 +1,7 @@
 # Launch Card · animated templates that an AI agent can rebrand
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/valeriodon-svgator-templates-h1stal?v=129e04d75370316ec62712e9c98452ee)](https://m8ven.ai/mcp/valeriodon-svgator-templates-h1stal?s=readme)
+
 Launch Card is an animated SaaS launch ad that I generated in [SVGator](https://www.svgator.com) through the SVGator MCP server, together with a script that rebrands it layer by layer, by name. I made it for the [SVGator Challenge on Contra](https://contra.com/community/topic/svgatorchallenge) in October 2026, and the same pipeline then produced my actual entry, **Departures** (split-flap boards for small businesses), and a follow-up, **Launch Heroes** (four interactive launch heroes). This repo is the source for all three and a record of the product and design decisions behind them.
 
 | Launch Card | Departures | Launch Heroes |
